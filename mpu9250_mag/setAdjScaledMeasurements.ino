@@ -7,7 +7,7 @@ void setAdjScaledMeasurements()
   magY = rawY * AdjY;
   magZ = rawZ * AdjZ;
 
-  // Multiply by scale to get units in Micro Tesla instead of Micro Tesla per LSB
+  // Multiply by scale to get units in Micro-Tesla instead of Micro-Tesla-per-LSB
   magX *= s;
   magY *= s;
   magZ *= s;
